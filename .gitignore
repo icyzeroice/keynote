@@ -1,0 +1,9 @@
+# node & npm
+node_modules/
+dist/
+package-lock.json
+
+# editor
+.vscode/
+.idea/
+.project
