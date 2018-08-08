@@ -52,7 +52,6 @@ module.exports = {
   plugins: plugins(),
 
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
     port: 1234,
     open: true,
     hot: true
@@ -65,7 +64,7 @@ module.exports = {
 
 function plugins() {
 
-  console.log('Current Running Environment: ', process.env.NODE_ENV, '\n')
+  console.log('Current Running Environment:', process.env.NODE_ENV, '\n')
   
   if (process.env.NODE_ENV === 'production') {
     return []

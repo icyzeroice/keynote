@@ -1,7 +1,5 @@
-import { slide } from './core/slide'
-import './style/slide.scss'
+import Keynote from './core/keynote.js'
+import './style/index.scss'
 
-slide()
-
-let mes = 'index'
-console.log(mes)
+const app = new Keynote('.keynote')
+app.play()
