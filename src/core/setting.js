@@ -4,10 +4,10 @@ export default {
   
   WINDOW_RESIZE_TIMEOUT: 200,
 
-  CONTAINER_CLASS: '.keynote',
+  CONTAINER_CLASS: '.keynote__container',
   SLIDE_CLASS: '.keynote__slide',
-  SLIDE_CONTENT_CLASS: '.keynote__slide__content',
+  CONTENT_CLASS: '.keynote__content',
   
-  SLIDE_HEIGHT: 540, // px
-  SLIDE_WIDTH: 960,  // px
+  CONTENT_HEIGHT: 540, // px
+  CONTENT_WIDTH: 960,  // px
 }
