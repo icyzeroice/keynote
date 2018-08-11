@@ -1,13 +1,16 @@
 @import "./setting.scss";
 
-section.keynote-slide {
-  
+.keynote {
+  position: absolute;
+}
+
+.keynote__slide {
   position: absolute;
   display: flex;
   width: 100%;
   height: 100%;
 
-  .content {
+  &__content {
     position: relative;
     width: $content-width;
     height: $content-height;
