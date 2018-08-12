@@ -100,6 +100,7 @@ export default class Keynote {
     // TODO: support background-image
     for (let slide of this.dom.slides) {
       slide.style.backgroundColor = slide.dataset.background
+      slide.style.color = slide.dataset.color
     }
   }
 

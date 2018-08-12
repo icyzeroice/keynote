@@ -1,0 +1,55 @@
+// TODO: @font-face
+
+.keynote__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: $content-width;
+  height: $content-height;
+
+  transition: all 1s ease-in-out;
+}
+
+.keynote__slide {
+  
+  .template0 {
+    flex-direction: column;
+
+    &__title {
+      display: flex;
+      flex-direction: column;
+
+      &__main {
+        margin-bottom: 0;
+
+        font-size: 48px;
+        font-weight: bold;
+      }
+      
+      &__sub {
+        font-size: 26px;
+        text-align: right;
+      }
+
+      &__more {
+        align-self: flex-end;
+      }
+    }
+  }
+
+  .template1 {
+    /**
+    *       TITLE
+    *       ----
+    *       BODY | IMAGE
+    */
+
+    &__title {
+      font-size: 32px;
+    }
+    &__body {
+      
+    }
+  }
+}

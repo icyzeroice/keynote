@@ -1,4 +1,5 @@
 @import "./setting.scss";
+@import "./content.scss";
 
 .keynote__container {
   position: absolute;
@@ -13,9 +14,3 @@
   align-items: center;
 }
 
-.keynote__content {
-  width: $content-width;
-  height: $content-height;
-
-  transition: all 1s ease-in-out;
-}
