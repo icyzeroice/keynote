@@ -12,8 +12,13 @@
 }
 
 .keynote__slide {
-  
+
   .template0 {
+    /**
+     *  TITLE
+     *    SUBTITLE
+     *    MORE_INFO
+     */
     flex-direction: column;
 
     &__title {
@@ -26,7 +31,7 @@
         font-size: 48px;
         font-weight: bold;
       }
-      
+
       &__sub {
         font-size: 26px;
         text-align: right;
@@ -40,16 +45,29 @@
 
   .template1 {
     /**
-    *       TITLE
-    *       ----
-    *       BODY | IMAGE
+    *  TITLE
+    *  ----
+    *  BODY | IMAGE
     */
+    display: flex;
+    flex-direction: column;
 
     &__title {
       font-size: 32px;
     }
     &__body {
-      
+      display: flex;
+      flex-direction: row;
+
+      width: 80%;
+
+      &__left {
+        flex-grow: 1;
+      }
+
+      &__right {
+        flex-grow: 1;
+      }
     }
   }
 }
